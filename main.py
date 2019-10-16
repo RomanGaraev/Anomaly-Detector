@@ -1,3 +1,5 @@
 import AI_algorithms
 
-AI_algorithms.NeuralNetwork()
+nn = AI_algorithms.NeuralNetwork("Bot")
+nn.Train()
+nn.Test()

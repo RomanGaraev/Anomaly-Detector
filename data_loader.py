@@ -3,11 +3,10 @@ import numpy as np
 from sklearn import preprocessing
 import os
 
-path = "data\Bot\\"
-
-# Получает имена всех .csv файлов в папке по пути "path"
-def FindCsv():
+# Find all .csv files in the folder "data\attack_type\"
+def FindCsv(attack_type):
     files = []
+    path = "data\\" + attack_type + "\\"
     for r, d, f in os.walk(path):
         print("Founded files in the folder", path, ":")
         for file in f:
@@ -16,33 +15,35 @@ def FindCsv():
                 print(file)
     return files
 
-# Возвращает стандартизированные обучающую, валидационную и тестовую выборки
-def LoadSet():
-    # Загружаем выборки из .csv таблиц
-    files = FindCsv()
+# Return standardized train, validation and test sets
+def LoadSet(attack_type):
+    files = FindCsv(attack_type)
     tables = []
     print("\nLoading started...")
+    # Download sets from the .csv tables without "bad" features
     for file in files:
-        tables.append(pandas.read_csv(file, sep=","))
+        table = pandas.read_csv(file, sep=",").drop(['Timestamp', 'Flow Byts/s', 'Flow Pkts/s'], axis=1)
+        tables.append(table)
         print("File", file, "is added.")
 
-    # Объединяем таблицы
+    # Union of the DataFrames
     data_set = pandas.concat(tables, ignore_index=True)
+    features_len = len(data_set.columns) - 1
     print("Data set is completely loaded. Total length of samples:", len(data_set))
 
-    # Избавляемся от "плохих" характеристик
-    data_set = data_set.drop(['Timestamp', 'Flow Byts/s', 'Flow Pkts/s'], axis=1)
-    # Разбиваем и перемешиваем выборки
+    # Mixing rows
     index = np.random.permutation(np.arange(len(data_set)))
     train_ind = index[: np.int32(0.70 * len(data_set))]
     valid_ind = index[np.int32(0.70 * len(data_set)) : np.int32(0.85 * len(data_set))]
     test_ind  = index[np.int32(0.85 * len(data_set)) :]
 
-    train_set = preprocessing.scale(data_set.iloc[train_ind, 0:76])
-    valid_set = preprocessing.scale(data_set.iloc[valid_ind, 0:76])
-    test_set  = preprocessing.scale(data_set.iloc[test_ind,  0:76])
+    # Standardization
+    train_set = preprocessing.scale(data_set.iloc[train_ind, 0:features_len])
+    valid_set = preprocessing.scale(data_set.iloc[valid_ind, 0:features_len])
+    test_set  = preprocessing.scale(data_set.iloc[test_ind,  0:features_len])
 
-    train_label = data_set.iloc[train_ind, 76]
-    valid_label = data_set.iloc[valid_ind, 76]
-    test_label  = data_set.iloc[test_ind, 76]
+    train_label = data_set.iloc[train_ind, features_len + 1]
+    valid_label = data_set.iloc[valid_ind, features_len + 1]
+    test_label  = data_set.iloc[test_ind,  features_len + 1]
+
     return train_set, valid_set, test_set, train_label, valid_label, test_label

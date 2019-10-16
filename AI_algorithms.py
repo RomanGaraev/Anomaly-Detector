@@ -1,23 +1,21 @@
 import data_loader
-import matplotlib.pyplot as plt
-import pandas.plotting as pd
 from sklearn import neural_network
 
-# Визуализация данных
-def GraphicAnalize(set):
-    print("Start plotting...")
-    data = set[['Dst Port', 'Fwd Seg Size Min', 'Protocol', 'Label', 'Fwd Pkt Len Max']]
-    print(data.describe(include='all'))
-    colors = {'Benign': 'green', 'Bot': 'red'}
-    grr = pd.scatter_matrix(data, figsize=(10, 10), c=data['Label'].replace(colors),diagonal='kde', alpha=0.2)
-    plt.show()
+# Simple perceptron
+class NeuralNetwork:
+    def __init__(self, attack_type):
+        self.train_set, self.valid_set, self.test_set, \
+        self.train_label, self.valid_label, self.test_label = data_loader.LoadSet(attack_type)
+        self.classifier = neural_network.MLPClassifier(hidden_layer_sizes=(9, 4), alpha=0.00001)
 
-def NeuralNetwork():
-    train_set, valid_set, test_set, train_label, valid_label, test_label = data_loader.LoadSet()
-    classifier = neural_network.MLPClassifier(hidden_layer_sizes=(9, 4), alpha=0.00001)
-    print("Start training neural network...")
-    classifier.fit(train_set, train_label)
-    print("Training completed")
-    print("Start testing...")
-    print("Result:", classifier.score(test_set,test_label))
+    def Train(self):
+        print("Start training neural network...")
+        self.classifier.fit(self.train_set, self.train_label)
+        print("Training completed")
 
+    def Test(self):
+        print("Start testing...")
+        print("Result:", self.classifier.score(self.test_set, self.test_label))
+
+    def Predict(self, x):
+        return self.classifier.predict(x)
