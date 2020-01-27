@@ -1,7 +1,6 @@
 import AI_algorithms
+import data_loader
 
-nn = AI_algorithms.NeuralNetwork()
-nn.Load("Bot")
+nn = AI_algorithms.LSTM("Bot")
 nn.Train()
 nn.Test()
-#nn.TypicalClass()
