@@ -1,4 +1,5 @@
-from sklearn import preprocessing
+from sklearn.preprocessing import scale
+from sklearn import model_selection
 import numpy as np
 import pandas
 import os
@@ -12,7 +13,7 @@ drop_col = ['Timestamp', 'Flow Byts/s', 'Flow Pkts/s']
 
 
 # Find all .csv files in the folder "data\attack_type\"
-def FindCsv(attack_type='Bot'):
+def find_csv(attack_type='Bot'):
     if not any(attack_type in name for name in attacks):
         raise ValueError("There is no type of attack you try to download in data set!\n")
     files = []
@@ -27,8 +28,8 @@ def FindCsv(attack_type='Bot'):
 
 
 # Return pandas.DataFrame from .csv files
-def LoadFrame(attack_type='Bot'):
-    files = FindCsv(attack_type)
+def load_frame(attack_type='Bot'):
+    files = find_csv(attack_type)
     tables = []
     print("\nStart loading...")
     # Download sets from the .csv tables without "bad" features
@@ -42,73 +43,51 @@ def LoadFrame(attack_type='Bot'):
     return data_set
 
 
-# Return standardized train, validation and test sets
-def LoadSet(attack_type='Bot'):
-    data_set = LoadFrame(attack_type)
-    features_len = len(data_set.columns) - 1
+# Return standardized train + validation and test sets
+def load_set(attack_type='Bot'):
+    train, test = model_selection.train_test_split(load_frame(attack_type), train_size=0.85)
 
-    # Mixing rows
-    index = np.random.permutation(np.arange(len(data_set)))
-    train_ind = index[: np.int32(0.70 * len(data_set))]
-    valid_ind = index[np.int32(0.70 * len(data_set)) : np.int32(0.85 * len(data_set))]
-    test_ind  = index[np.int32(0.85 * len(data_set)) :]
+    train_label = train['Label'].map({'Benign': 0, attack_type: 1})
+    test_label = test['Label'].map({'Benign': 0, attack_type: 1})
 
-    # Standardization
-    train_features = pandas.DataFrame(data=preprocessing.scale(data_set.iloc[train_ind, 0:features_len]))
-    valid_features = pandas.DataFrame(data=preprocessing.scale(data_set.iloc[valid_ind, 0:features_len]))
-    test_features  = pandas.DataFrame(data=preprocessing.scale(data_set.iloc[test_ind,  0:features_len]))
+    train = pandas.DataFrame(scale(train.drop('Label', axis=1)))
+    test = pandas.DataFrame(scale(test.drop('Label', axis=1)))
 
-    # Remapping 'Label' column to 0 and 1
-    train_label = data_set.iloc[train_ind, features_len].map({'Benign': 0, attack_type: 1})
-    valid_label = data_set.iloc[valid_ind, features_len].map({'Benign': 0, attack_type: 1})
-    test_label  = data_set.iloc[test_ind,  features_len].map({'Benign': 0, attack_type: 1})
-
-    # Types of return values are DataFrame and Series respectively
-    return [train_features, train_label], [valid_features, valid_label], [test_features, test_label]
+    return [train, train_label], [test, test_label]
 
 
-# Return divided by type (Benign or Malicious) standardized set
-def LoadSeparate(attack_type='Bot'):
-    data_set = LoadFrame(attack_type)
+# Return divided by type (Benign or Malicious) standardized sets
+def load_separate(attack_type='Bot'):
+    data_set = load_frame(attack_type)
     # Data set without labels
     features_len = len(data_set.columns) - 1
     # Standardization
-    features = pandas.DataFrame(data=preprocessing.scale(data_set.iloc[:, 0:features_len]))
-    return features.loc[data_set['Label'] == 'Benign'],\
-           features.loc[data_set['Label'] == attack_type]
+    features = pandas.DataFrame(data=scale(data_set.iloc[:, 0:features_len]))
+    return features.loc[data_set['Label'] == 'Benign'], features.loc[data_set['Label'] == attack_type]
 
 
-# Return train, validation and test sets as arrays of sequences for recurrent algorithms.
+# Return train+validation and test sets as arrays of sequences for recurrent algorithms.
 # Data set is sliced to sequences of random length. Samples are from separated data sets
-def LoadSeq(attack_type='Bot', min_len=10, max_len=20):
-    # Download benign and malicious sets
-    sets = LoadSeparate(attack_type)
+def load_seq(attack_type='Bot', step=20):
     seq = []
-    label = []
+    seq_lab = []
     # Benign=0 or malicious=1
-    l = 0
-    print("Start creating sequences...\n")
-    for set in sets:
-        i = 0
-        data_len = len(set)
-        # Going through set and adding sequences of samples to array
-        while (i < data_len):
-            size = 20 # size = min(np.random.randint(min_len, max_len), data_len - i)
-            if (size + i < data_len):
-             seq.append(np.array(set[i: i + size]))
-             label.append([l])
-            i += size
-        l += 1
+    label = 0
 
+    print("Start creating sequences...\n")
+    for Set in load_separate(attack_type):
+        # Going through set and adding the batches of samples to the sequence
+        for i in range(0, len(Set) - step, step):
+            seq.append(np.array(Set[i: i + step]))
+            seq_lab.append([label])
+        label += 1
     print("Total amount of sequences: ", len(seq), "\n")
 
     # Mixing rows
     index = np.random.permutation(np.arange(len(seq)))
-    train_ind = index[: np.int32(0.70 * len(seq))]
-    valid_ind = index[np.int32(0.70 * len(seq)): np.int32(0.85 * len(seq))]
-    test_ind  = index[np.int32(0.85 * len(seq)):]
+    train_ind = index[: np.int32(0.85 * len(seq))]
+    test_ind = index[np.int32(0.85 * len(seq)):]
 
-    return [np.array([seq[i] for i in train_ind]), np.array([label[i] for i in train_ind])], \
-           [np.array([seq[i] for i in valid_ind]), np.array([label[i] for i in valid_ind])], \
-           [np.array([seq[i] for i in test_ind]),  np.array([label[i] for i in test_ind])]
+    return [np.array([seq[i] for i in train_ind]), np.array([seq_lab[i] for i in train_ind])], \
+           [np.array([seq[i] for i in test_ind]),  np.array([seq_lab[i] for i in test_ind])]
 

@@ -2,5 +2,5 @@ import AI_algorithms
 import data_loader
 
 nn = AI_algorithms.LSTM("Bot")
-nn.Train()
-nn.Test()
+nn.train()
+nn.test()
