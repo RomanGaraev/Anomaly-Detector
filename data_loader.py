@@ -43,15 +43,15 @@ def load_frame(attack_type='Bot'):
     return data_set
 
 
-# Return standardized train + validation and test sets
-def load_set(attack_type='Bot'):
-    train, test = model_selection.train_test_split(load_frame(attack_type), train_size=0.85)
+# Return standardized train + validation and test sets as numpy arrays
+def load_set(attack_type='Bot', train_size=0.85):
+    train, test = model_selection.train_test_split(load_frame(attack_type), train_size=train_size)
 
-    train_label = train['Label'].map({'Benign': 0, attack_type: 1})
-    test_label = test['Label'].map({'Benign': 0, attack_type: 1})
+    train_label = np.array(train['Label'].map({'Benign': 0, attack_type: 1}))
+    test_label = np.array(test['Label'].map({'Benign': 0, attack_type: 1}))
 
-    train = pandas.DataFrame(scale(train.drop('Label', axis=1)))
-    test = pandas.DataFrame(scale(test.drop('Label', axis=1)))
+    train = scale(train.drop('Label', axis=1))
+    test = scale(test.drop('Label', axis=1))
 
     return [train, train_label], [test, test_label]
 
@@ -59,16 +59,14 @@ def load_set(attack_type='Bot'):
 # Return divided by type (Benign or Malicious) standardized sets
 def load_separate(attack_type='Bot'):
     data_set = load_frame(attack_type)
-    # Data set without labels
-    features_len = len(data_set.columns) - 1
     # Standardization
-    features = pandas.DataFrame(data=scale(data_set.iloc[:, 0:features_len]))
+    features = pandas.DataFrame(data=scale(data_set.iloc[:, 0:len(data_set.columns) - 1]))
     return features.loc[data_set['Label'] == 'Benign'], features.loc[data_set['Label'] == attack_type]
 
 
 # Return train+validation and test sets as arrays of sequences for recurrent algorithms.
 # Data set is sliced to sequences of random length. Samples are from separated data sets
-def load_seq(attack_type='Bot', step=20):
+def load_seq(attack_type='Bot', step=20, train_size=0.85):
     seq = []
     seq_lab = []
     # Benign=0 or malicious=1
@@ -85,8 +83,8 @@ def load_seq(attack_type='Bot', step=20):
 
     # Mixing rows
     index = np.random.permutation(np.arange(len(seq)))
-    train_ind = index[: np.int32(0.85 * len(seq))]
-    test_ind = index[np.int32(0.85 * len(seq)):]
+    train_ind = index[: np.int32(train_size * len(seq))]
+    test_ind = index[np.int32(train_size * len(seq)):]
 
     return [np.array([seq[i] for i in train_ind]), np.array([seq_lab[i] for i in train_ind])], \
            [np.array([seq[i] for i in test_ind]),  np.array([seq_lab[i] for i in test_ind])]
