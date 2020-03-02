@@ -1,12 +1,13 @@
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import scale
-from sklearn import model_selection
 import numpy as np
 import pandas
+import boto3
 import os
 
 
 # Available data sets of attacks
-attacks = ['Bot', 'Brute force', 'DDoS', 'DoS', 'Infiltration', 'Web']
+attacks = ['Bot', 'Bot_enc', 'Brute force', 'DDoS', 'DoS', 'Infiltration', 'Web']
 
 # The names of the columns that should be dropped
 drop_col = ['Timestamp', 'Flow Byts/s', 'Flow Pkts/s']
@@ -32,20 +33,21 @@ def load_frame(attack_type='Bot'):
     files = find_csv(attack_type)
     tables = []
     print("\nStart loading...")
-    # Download sets from the .csv tables without "bad" features
+    # Download sets from the .csv tables
     for file in files:
-        table = pandas.read_csv(file, sep=",").drop(drop_col, axis=1)
-        tables.append(table)
+        tables.append(pandas.read_csv(file, sep=","))
         print("File", file, "is added.")
     # Union of the DataFrames
-    data_set = pandas.concat(tables, ignore_index=True)
-    print("Data set completely downloaded. Total length of samples:", len(data_set), "\n")
-    return data_set
+    data_frame = pandas.concat(tables, ignore_index=True)
+    # Drop "bad" features, if they exist
+    data_frame.drop(set(drop_col) & set(data_frame.columns), axis=1)
+    print("Data set completely downloaded. Total length of samples:", len(data_frame), "\n")
+    return data_frame
 
 
 # Return standardized train + validation and test sets as numpy arrays
 def load_set(attack_type='Bot', train_size=0.85):
-    train, test = model_selection.train_test_split(load_frame(attack_type), train_size=train_size)
+    train, test = train_test_split(load_frame(attack_type), train_size=train_size)
 
     train_label = np.array(train['Label'].map({'Benign': 0, attack_type: 1}))
     test_label = np.array(test['Label'].map({'Benign': 0, attack_type: 1}))
@@ -53,7 +55,8 @@ def load_set(attack_type='Bot', train_size=0.85):
     train = scale(train.drop('Label', axis=1))
     test = scale(test.drop('Label', axis=1))
 
-    return [train, train_label], [test, test_label]
+    return [train, train_label.reshape(train_label.shape[0], 1)], \
+           [test,  test_label.reshape(test_label.shape[0], 1)]
 
 
 # Return divided by type (Benign or Malicious) standardized sets
@@ -89,3 +92,16 @@ def load_seq(attack_type='Bot', step=20, train_size=0.85):
     return [np.array([seq[i] for i in train_ind]), np.array([seq_lab[i] for i in train_ind])], \
            [np.array([seq[i] for i in test_ind]),  np.array([seq_lab[i] for i in test_ind])]
 
+
+# Download data set from Amazon Web Services
+def load_aws():
+    s3 = boto3.client('s3')
+    response = s3.list_buckets()
+
+    # Output the bucket names
+    print('Existing buckets:')
+    for bucket in response['Buckets']:
+        print(f' {bucket["Name"]}')
+    #s3 = boto3.client('s3')
+    #s3.create_bucket(Bucket=)
+    #s3.download_file("cse-cic-ids2018", "Processed Traffic Data for ML Algorithms", "/test")
