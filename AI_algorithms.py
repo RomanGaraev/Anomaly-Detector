@@ -1,4 +1,5 @@
 import data_loader
+from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 from sklearn import neighbors
@@ -6,59 +7,8 @@ from tensorflow import keras
 from sklearn import ensemble
 from os.path import exists
 from time import clock
-import numpy as np
 import pickle
 import pandas
-
-
-# Common function for classifiers that print accuracy metrics
-def metrics(prediction, true_val):
-    # TPrate := recall
-    TPrate = FPrate = precision = []
-    tn = fn = fp = tp = 0
-    best_acc = 0
-    thr = 0
-    n = len(true_val)
-    # Going through thresholds
-    for i in np.linspace(0, 1, 21):
-        cm = confusion_matrix(true_val,  prediction >= i)
-        print("Threshold ", i)
-        print(cm, "\n")
-        TPrate.append(cm[1][1] / (cm[1][1] + cm[1][0] + 1))
-        FPrate.append(cm[0][1] / (cm[0][0] + cm[0][1] + 1))
-        precision.append(cm[1][1] / (cm[1][1] + cm[0][1] + 1))
-        accuracy = (cm[0][0] + cm[1][1]) / n
-        if accuracy > best_acc:
-            tn = cm[0][0]
-            fn = cm[1][0]
-            fp = cm[0][1]
-            tp = cm[1][1]
-            thr = i
-            best_acc = accuracy
-
-    print("Best accuracy   ", best_acc, " with threshold ", thr)
-    print("True Negative:  ", tn)
-    print("True Positive:  ", tp)
-    print("False Negative: ", fn)
-    print("False Positive: ", fp)
-    print("Precision:      ", tp / (tp + fp))
-    print("Recall:         ", tp / (tp + fn))
-    print("F1 score:       ", 2 * tp / (2 * tp + fn + fp))
-
-    fig = plt.figure(figsize=(8, 8))
-    fig1 = fig.add_subplot(211)
-    fig1.plot(FPrate, TPrate, 'go')
-    fig1.set_xlabel('FPrate')
-    fig1.set_ylabel('TPrate')
-    fig1.set_title('ROC Curve')
-
-    fig2 = fig.add_subplot(212)
-    fig2.plot(TPrate, precision, 'rx')
-    fig2.set_xlabel('Recall')
-    fig2.set_ylabel('Precision')
-    fig2.set_title('Precision-Recall Curve')
-    fig.tight_layout(pad=3.0)
-    plt.show()
 
 
 # Make plots of typical benign/anomaly packet by x and y numbers of features
@@ -101,7 +51,7 @@ class RandomForest:
         self.__load()
         print("Start testing...\n")
         self.__classifier.score(self.__test_set[0], self.__test_set[1])
-        metrics(self.__classifier.predict(self.__test_set[0]), self.__test_set[1])
+        print(classification_report(self.__test_set[1], self.__classifier.predict(self.__test_set[0]) >= 0.5))
 
     def predict(self, x, threshold=0.85):
         return self.__classifier.predict(x) >= threshold
@@ -139,7 +89,7 @@ class KNN:
         self.__load()
         print("Start testing...\n")
         self.__classifier.score(self.__test_set[0], self.__test_set[1])
-        metrics(self.__classifier.predict(self.__test_set[0]), self.__test_set[1])
+        print(classification_report(self.__test_set[1], self.__classifier.predict(self.__test_set[0]) >= 0.5))
 
     def predict(self, x, threshold=0.85):
         return self.__classifier.predict(x) >= threshold
@@ -187,7 +137,8 @@ class NeuralNetwork:
         self.__load()
         print("Start testing...\n")
         self.__classifier.evaluate(self.__test_set[0], self.__test_set[1])
-        metrics(self.__classifier.predict(self.__test_set[0]), self.__test_set[1])
+        print(confusion_matrix(self.__test_set[1], self.__classifier.predict(self.__test_set[0]) >= 0.3))
+        print(classification_report(self.__test_set[1], self.__classifier.predict(self.__test_set[0]) >= 0.3))
 
     def predict(self, x, threshold=0.85):
         return self.__classifier.predict(x) >= threshold
@@ -255,6 +206,7 @@ class Autoencoder:
 # LSTM neural network
 class LSTM:
     def __init__(self, attack_type="Bot"):
+
         self.__attack_type = attack_type
         self.__download = False
         # Try to find existing model
@@ -290,7 +242,7 @@ class LSTM:
         self.__load()
         print("Start testing...\n")
         self.__classifier.evaluate(self.__test_set[0], self.__test_set[1])
-        metrics(self.__classifier.predict(self.__test_set[0]), self.__test_set[1])
+        print(classification_report(self.__test_set[1], self.__classifier.predict(self.__test_set[0]) >= 0.5))
 
     def predict(self, x, threshold=0.85):
         return self.__classifier.predict(x) >= threshold
@@ -309,9 +261,11 @@ class GRU:
             self.__classifier = keras.models.load_model(self.__model_path)
         else:
             self.__classifier = keras.Sequential()
-            self.__classifier.add(keras.layers.GRU(32, return_sequences=True))
+            self.__classifier.add(keras.layers.GRU(32,  return_sequences=True))
             self.__classifier.add(keras.layers.Dropout(0.15))
             self.__classifier.add(keras.layers.GRU(32, return_sequences=False))
+            self.__classifier.add(keras.layers.Dense(10, activation=keras.activations.relu))
+            self.__classifier.add(keras.layers.Dropout(0.1))
             self.__classifier.add(keras.layers.Dense(1, activation=keras.activations.sigmoid))
             self.__classifier.compile(optimizer=keras.optimizers.SGD(0.1), loss='mean_absolute_error')
 
@@ -333,9 +287,12 @@ class GRU:
         self.__load()
         print("Start testing...\n")
         self.__classifier.evaluate(self.__test_set[0], self.__test_set[1])
-        metrics(self.__classifier.predict(self.__test_set[0]), self.__test_set[1])
+        print("Confusion matrix:")
+        print(confusion_matrix(self.__test_set[1], self.__classifier.predict(self.__test_set[0]) >= 0.3))
+        print(classification_report(self.__test_set[1], self.__classifier.predict(self.__test_set[0]) >= 0.3,
+                                    target_names=["Benign", "Anomaly"]))
 
-    def predict(self, x, threshold=0.85):
+    def predict(self, x, threshold=0.3):
         return self.__classifier.predict(x) >= threshold
 
 

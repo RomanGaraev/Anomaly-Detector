@@ -7,10 +7,10 @@ import os
 
 
 # Available data sets of attacks
-attacks = ['Bot', 'Bot_enc', 'Brute force', 'DDoS', 'DoS', 'Infiltration', 'Web']
+attacks = ['Bot', 'Bot_enc', 'Brute force', 'DDoS', 'DoS', 'Infiltration', 'Web', 'Test']
 
 # The names of the columns that should be dropped
-drop_col = ['Timestamp', 'Flow Byts/s', 'Flow Pkts/s']
+drop_col = ['Timestamp', 'Flow Byts/s', 'Flow Pkts/s', 'Flow ID', 'Src IP', 'Dst IP', 'Flow duration']
 
 
 # Find all .csv files in the folder "data\attack_type\"

@@ -78,23 +78,24 @@
     <session id="975288222">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="94" />
+          <entry key="project.closed" value="102" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.131" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.18" value="5" />
           <entry key="project.open.time.19" value="7" />
           <entry key="project.open.time.20" value="9" />
-          <entry key="project.open.time.21" value="7" />
-          <entry key="project.open.time.22" value="10" />
-          <entry key="project.open.time.23" value="13" />
-          <entry key="project.open.time.24" value="7" />
+          <entry key="project.open.time.21" value="8" />
+          <entry key="project.open.time.22" value="11" />
+          <entry key="project.open.time.23" value="14" />
+          <entry key="project.open.time.24" value="8" />
           <entry key="project.open.time.25" value="6" />
-          <entry key="project.open.time.26" value="4" />
+          <entry key="project.open.time.26" value="5" />
           <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.34" value="2" />
@@ -102,33 +103,33 @@
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.4" value="7" />
+          <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.57" value="1" />
-          <entry key="project.opened" value="99" />
+          <entry key="project.opened" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="28498" />
+          <entry key="py" value="32085" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="28498" />
+          <entry key="Python" value="32085" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="10" />
-          <entry key="py" value="89" />
+          <entry key="py" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="10" />
-          <entry key="Python" value="89" />
+          <entry key="Python" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -138,13 +139,16 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Anomaly_Detector" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="17">
+              <caret line="37" column="52" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="52" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -152,17 +156,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AI_algorithms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3162">
-              <caret line="220" selection-start-line="220" selection-end-line="220" />
+            <state relative-caret-position="691">
+              <caret line="140" column="108" selection-start-line="140" selection-start-column="108" selection-end-line="140" selection-end-column="108" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#2276#3701#0" />
-                <marker date="1583165810867" expanded="true" signature="2121:2122" ph="..." />
-                <marker date="1583165810867" expanded="true" signature="3802:10002" ph="..." />
-                <marker date="1583165810867" expanded="true" signature="7250:10002" ph="..." />
+                <element signature="e#699#2152#0" />
+                <element signature="e#2258#3648#0" />
               </folding>
             </state>
           </provider>
@@ -171,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -211,9 +213,11 @@
         <option value="$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/keras/engine/training_arrays.py" />
         <option value="$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/keras/layers/wrappers.py" />
         <option value="$PROJECT_DIR$/Baby-step giant-step.py" />
+        <option value="$USER_HOME$/Downloads/Dixon.py" />
+        <option value="$PROJECT_DIR$/data_loader.py" />
+        <option value="$PROJECT_DIR$/Hello world.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/AI_algorithms.py" />
-        <option value="$PROJECT_DIR$/data_loader.py" />
       </list>
     </option>
   </component>
@@ -242,15 +246,14 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/demo8/Desktop/Study/Diploma/Anomaly_Detector/main.py" />
@@ -292,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Konnov" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Dixon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="anomaly_detection_scanner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,11 +303,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/Konnov.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Dixon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,7 +316,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="clock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Hello world" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="anomaly_detection_scanner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,11 +324,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../CompGraph/lab4" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../CompGraph/lab4/clock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello world.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,18 +381,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.Konnov" />
-      <item itemvalue="Python.clock" />
       <item itemvalue="Python.lab3(metrics)" />
       <item itemvalue="Python.Baby-step giant-step" />
+      <item itemvalue="Python.Dixon" />
+      <item itemvalue="Python.Hello world" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Hello world" />
+        <item itemvalue="Python.Dixon" />
         <item itemvalue="Python.Baby-step giant-step" />
         <item itemvalue="Python.lab3(metrics)" />
-        <item itemvalue="Python.clock" />
-        <item itemvalue="Python.Konnov" />
       </list>
     </recent_temporary>
   </component>
@@ -420,11 +423,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5010571" side_tool="true" weight="0.24983476" />
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" weight="0.32980832" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4989429" weight="0.15928619" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49834764" visible="true" weight="0.33617023" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49834764" weight="0.33049646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,9 +480,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1084.43925/Lesson_01_2.ipynb" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5908.27997/Lesson_01_2.ipynb" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa7588.29300/Lesson_01_2.ipynb" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1736.42405/Lesson_01_2.ipynb" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,36 +695,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AI_algorithms.py">
+    <entry file="file://$USER_HOME$/Downloads/ro_pollard_ro_1_pollard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3162">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="17">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Dixon.py" />
+    <entry file="file://$PROJECT_DIR$/data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="52" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#2276#3701#0" />
-            <marker date="1583165810867" expanded="true" signature="2121:2122" ph="..." />
-            <marker date="1583165810867" expanded="true" signature="3802:10002" ph="..." />
-            <marker date="1583165810867" expanded="true" signature="7250:10002" ph="..." />
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello world.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_loader.py">
+    <entry file="file://$PROJECT_DIR$/AI_algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="691">
+          <caret line="140" column="108" selection-start-line="140" selection-start-column="108" selection-end-line="140" selection-end-column="108" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#699#2152#0" />
+            <element signature="e#2258#3648#0" />
           </folding>
         </state>
       </provider>

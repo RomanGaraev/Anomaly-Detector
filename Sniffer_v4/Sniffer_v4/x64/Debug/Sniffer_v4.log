@@ -1,0 +1,5 @@
+﻿  Sniffer_v4.cpp
+c:\users\demo8\desktop\study\diploma\sniffer_v4\sniffer_v4\sniffer_v4.cpp(5): warning C4603: TINS_STATIC: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  c:\users\demo8\desktop\study\diploma\sniffer_v4\sniffer_v4\sniffer_v4.cpp(5): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  c:\users\demo8\desktop\study\diploma\sniffer_v4\sniffer_v4\sniffer_v4.cpp(6): note: использование предварительно скомпилированного заголовка
+c:\users\demo8\desktop\study\diploma\sniffer_v4\sniffer_v4\sniffer_v4.cpp(8): fatal error C1083: Не удается открыть файл включение: tins/tins.h: No such file or directory
