@@ -1,3 +1,0 @@
-﻿  stdafx.cpp
-  Sniffer_v4.cpp
-Sniffer_v4.cpp(5): fatal error C1083: Не удается открыть файл включение: tins/tins.h: No such file or directory
