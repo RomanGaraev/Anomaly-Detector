@@ -7,7 +7,6 @@ from os.path import exists
 import datetime
 import pickle
 import pandas
-import numpy as np
 
 
 # Sklearn implementation of Random Forest classifier

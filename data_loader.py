@@ -133,17 +133,21 @@ def speed_chart():
     NeurNet = 20
     GRU = 120
     Autoenc = 10
-    Enc_GRU = 102
+    Enc_GRU = 105
     # Scheme1 = Neural Network + GRU
     # Scheme2 = Autoencoder + GRU(after encoding)
     set_len = 10000
-    x = []
     y1 = []
     y2 = []
     for anom in np.linspace(0, 50, 101):
         anom_len = anom * set_len / 100
         y1.append(NeurNet * set_len + GRU * anom_len / 10)
         y2.append(Autoenc * set_len + Enc_GRU * set_len / 10)
-    plt.plot(np.linspace(0, 50, 101), y1, 'g')
-    plt.plot(np.linspace(0, 50, 101), y2, 'r')
+    fig, ax = plt.subplots()
+    ax.plot(np.linspace(0, 50, 101), y1, 'g', label="Scheme I")
+    ax.plot(np.linspace(0, 50, 101), y2, 'r', label="Scheme II")
+    plt.grid(linestyle='--')
+    legend = ax.legend()
+    # Put a nicer background color on the legend.
+    legend.get_frame().set_facecolor('C0')
     plt.show()

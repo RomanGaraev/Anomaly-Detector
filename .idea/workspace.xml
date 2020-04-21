@@ -2,687 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="343ce39e-38c4-4805-a682-9e2518a10824" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI_algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI_algorithms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/.vs/Sniffer_v4/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Debug/Sniffer_v4.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Debug/Sniffer_v4.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Debug/Sniffer_v4.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.tlog/Sniffer_v4.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/Sniffer_v4.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/stdafx.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/Sniffer_v4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/Sniffer_v4.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/Sniffer_v4.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/Sniffer_v4.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/Sniffer_v4.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/Sniffer_v4.tlog/Sniffer_v4.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/Sniffer_v4.tlog/unsuccessfulbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/stdafx.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Release/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Sniffer_v4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Sniffer_v4.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Sniffer_v4.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/Sniffer_v4.vcxproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/stdafx.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/stdafx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/targetver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/Sniffer_v4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/Sniffer_v4.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/Sniffer_v4.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/Sniffer_v4.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/Sniffer_v4.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/Sniffer_v4.tlog/Sniffer_v4.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/Sniffer_v4.tlog/unsuccessfulbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/stdafx.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/vc140.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/Sniffer_v4/x64/Debug/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/MakeaAll.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/MakeaAll.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/UDPdump/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/UDPdump/UDPdump.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/UDPdump/UDPdump.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/UDPdump/UDPdump.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/UDPdump/udpdump.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump/basic_dump.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump/basic_dump.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump/basic_dump.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump/basic_dump.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump_ex/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump_ex/basic_dump_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump_ex/basic_dump_ex.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump_ex/basic_dump_ex.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/basic_dump_ex/basic_dump_ex.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/iflist/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/iflist/iflist.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/iflist/iflist.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/iflist/iflist.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/iflist/iflist.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pcap_filter/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pcap_filter/Makefile.unix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pcap_filter/pcap_filter.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pcap_filter/pcap_filter.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pcap_filter/pcap_filter.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pcap_filter/pcap_filter.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pktdump_ex/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pktdump_ex/pktdump_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pktdump_ex/pktdump_ex.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pktdump_ex/pktdump_ex.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/pktdump_ex/pktdump_ex.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile/readfile.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile/readfile.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile/readfile.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile/readfile.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile_ex/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile_ex/readfile_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile_ex/readfile_ex.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile_ex/readfile_ex.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/readfile_ex/readfile_ex.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/savedump/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/savedump/savedump.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/savedump/savedump.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/savedump/savedump.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/savedump/savedump.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/sendpack/GNUmakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/sendpack/sendpack.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/sendpack/sendpack.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/sendpack/sendpack.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-pcap/sendpack/sendpack.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/MakeAll.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/MakeaAll.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/GetMacAddress/GetMacAddress.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/GetMacAddress/GetMacAddress.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/GetMacAddress/GetMacAddress.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/TestPacketCapture/TestPacketCapture.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/TestPacketCapture/TestPacketCapture.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/TestPacketCapture/TestPacketCapture.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/TestPacketSend/TestPacketSend.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/TestPacketSend/TestPacketSend.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/TestPacketSend/TestPacketSend.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/PacketDriver/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UDPdump/UDPdump.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UDPdump/UDPdump.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UDPdump/UDPdump.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UDPdump/udpdump.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UserLevelBridge/UserBridge.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UserLevelBridge/UserBridge.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UserLevelBridge/UserBridge.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/UserLevelBridge/UserBridge.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/iflist/iflist.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/iflist/iflist.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/iflist/iflist.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/iflist/iflist.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/MakeAll.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/MakeaAll.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/basic_dump.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/basic_dump.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/basic_dump.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/basic_dump_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/basic_dump_ex.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/basic_dump_ex.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/readfile.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/readfile.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/readfile.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/readfile_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/readfile_ex.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/readfile_ex.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/savedump.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/savedump.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/savedump.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/sendpack.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/sendpack.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/misc/sendpack.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pcap_filter/pcap_filter.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pcap_filter/pcap_filter.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pcap_filter/pcap_filter.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pcap_filter/pcap_filter.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pcap_fopen/pcap_fopen.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pcap_fopen/pcap_fopen.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pktdump_ex/pktdump_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pktdump_ex/pktdump_ex.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pktdump_ex/pktdump_ex.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/pktdump_ex/pktdump_ex.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/sendcap/sencap.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/sendcap/sendcap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/sendcap/sendcap.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/sendcap/sendcap.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/smp_1/smp_1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/smp_1/smp_1.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/smp_1/smp_1.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/smp_1/smp_1.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/tcptop/tcptop.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/tcptop/tcptop.dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/tcptop/tcptop.dsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Examples-remote/tcptop/tcptop.vcproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/Packet32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/Win32-Extensions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/bittypes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/ip6_misc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap-bpf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap-namedb.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap-stdinc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap/bluetooth.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap/bpf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap/namedb.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap/pcap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap/sll.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap/usb.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/pcap/vlan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Include/remote-ext.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Lib/Packet.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Lib/libpacket.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Lib/libwpcap.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Lib/wpcap.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Lib/x64/Packet.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/Lib/x64/wpcap.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/WinPcap_docs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/Packet_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/Packet_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/Win32-Extensions_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/Win32-Extensions_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/annotated.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/daemon_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/daemon_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/deprecated.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/doxygen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/doxygen__groups_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/dump.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/encoding.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/fileconf_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/fileconf_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/files.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2blank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2folderclosed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2folderopen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2lastnode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2link.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2mlastnode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2mnode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2plastnode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2pnode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ftv2vertline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/funcs_2pcap_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/funcs_2pcap_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/functions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/functions_vars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x62.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x63.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x64.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x65.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x66.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x67.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x68.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x69.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x6a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x6b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x6d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x6e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x6f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x70.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x72.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x73.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x74.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_0x75.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_defs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_enum.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_eval.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_func.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_type.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/globals_vars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__NPF.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__NPF__code.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__NPF__include.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__NPF__ioctl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__NPF__jitter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__compilation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__internals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__language.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__packetapi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__auth__methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__open__flags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__pri__func.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__pri__struct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__samp__methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__source__ID.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__source__string.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remote__struct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__remotefunc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__def.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcap__tut9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcapfunc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/group__wpcapsamps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/incs_2pcap_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/incs_2pcap_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/index.hhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/index.hhk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/index.hhp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/internals-arch.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ioctls_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/ioctls_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/jitter_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/jitter_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/main_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/modules.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/npf-dump.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/npf-ndis.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/npf-npf.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/pages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/pcap-remote_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/pcap-remote_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/remote-ext_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/remote-ext_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/rpcapd_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/rpcapd_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/stats.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/stats_wpcap.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structJIT__BPF__Filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structPacketHeader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/struct__DEVICE__EXTENSION.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/struct__INTERNAL__REQUEST.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/struct__OPEN__INSTANCE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/struct__PACKET__OID__DATA.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/struct__PACKET__RESERVED.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/struct____CPU__Private__Data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structactive__pars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structactivehosts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structbinary__stream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structdaemon__slpars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpacket__file__header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__addr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__file__header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__if.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__pkthdr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__rmtauth.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__samp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__send__queue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structpcap__stat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__auth.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__filterbpf__insn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__findalldevs__if.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__findalldevs__ifaddr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__openreply.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__pkthdr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__sampling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__startcapreply.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__startcapreq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structrpcap__stats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/structsf__pkthdr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/tab_b.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/tab_l.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/tab_r.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/utils_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/utils_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/win32-svc_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/win32-svc_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/winpcap.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/winpcap_small.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__remote_8htm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__remote_8htm_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut1_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut2_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut3_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut4_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut5_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut6_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut7_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut8_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut9_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/WpdPack/docs/html/wpcap__tut_8txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/CHANGES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/THANKS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-__func__.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-auto.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-auto_fail_compile.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-auto_ret_type.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-builtin-swap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-chrono.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-class_override_final.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-class_override_final_fail_compile.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-constexpr.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-cstdint.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-decltype.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-declval.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-functional.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-initializer_list.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-lambda.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-long_long.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-noexcept.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-nullptr.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-nullptr_fail_compile.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-regex.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-rvalue-references.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-sizeof_member.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-sizeof_member_fail.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-static_assert.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-static_assert_fail_compile.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/CheckCXXFeatures/cxx-test-variadic_templates.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/Modules/FindPCAP.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/cmake_uninstall.cmake.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/libtinsConfig.cmake.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/cmake/libtinsConfigVersion.cmake.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/docs/Doxyfile.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/docs/mainpage.dox" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/arpmonitor.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/arpspoofing.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/beacon_display.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/defragmenter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/dns_queries.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/dns_spoof.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/dns_stats.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/http_requests.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/icmp_responses.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/interfaces_info.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/portscan.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/route_table.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/stream_dump.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/tcp_connection_close.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/traceroute.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/examples/wps_detect.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/address_range.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/arp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/bootp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/config.h.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/crypto.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/cxxstd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/data_link_type.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/detail/address_helpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/detail/icmp_extension_helpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/detail/pdu_helpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/detail/sequence_number_helpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/detail/smart_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/detail/type_traits.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dhcp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dhcpv6.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dns.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_assoc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_auth.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_base.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_beacon.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_control.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_data.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_mgmt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot11/dot11_probe.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot1q.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/dot3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/eapol.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/endianness.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ethernetII.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/exceptions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/handshake_capturer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/hw_address.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/icmp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/icmp_extension.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/icmpv6.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ieee802_3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/internals.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ip.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ip_address.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ip_reassembler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ipsec.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ipv6.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ipv6_address.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/llc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/loopback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/macros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/memory_helpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/mpls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/network_interface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/offline_packet_filter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/packet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/packet_sender.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/packet_writer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/pdu.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/pdu_allocator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/pdu_cacher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/pdu_iterator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/pdu_option.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/pktap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/ppi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/pppoe.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/radiotap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/rawpdu.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/rsn_information.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/sll.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/small_uint.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/snap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/sniffer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/stp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp_ip/ack_tracker.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp_ip/data_tracker.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp_ip/flow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp_ip/stream.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp_ip/stream_follower.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp_ip/stream_identifier.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tcp_stream.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/timestamp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/tins.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/udp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils/checksum_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils/frequency_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils/pdu_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils/radiotap_parser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils/radiotap_writer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils/resolve_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/include/tins/utils/routing_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/libtins.pc.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/address_range.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/arp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/bootp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/crypto.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/detail/address_helpers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/detail/icmp_extension_helpers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/detail/pdu_helpers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/detail/sequence_number_helpers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dhcp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dhcpv6.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dns.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_assoc.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_auth.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_base.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_beacon.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_data.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_mgmt.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot11/dot11_probe.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot1q.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/dot3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/eapol.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ethernetII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/handshake_capturer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/hw_address.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/icmp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/icmp_extension.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/icmpv6.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ip.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ip_address.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ip_reassembler.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ipsec.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ipv6.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ipv6_address.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/llc.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/loopback.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/memory_helpers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/mpls.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/network_interface.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/offline_packet_filter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/packet_sender.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/packet_writer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/pdu.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/pdu_iterator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/pdu_option.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/pktap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/ppi.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/pppoe.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/radiotap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/rawpdu.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/rsn_information.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/sll.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/snap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/sniffer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/stp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp_ip/ack_tracker.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp_ip/data_tracker.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp_ip/flow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp_ip/stream.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp_ip/stream_follower.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp_ip/stream_identifier.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/tcp_stream.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/timestamp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/udp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/utils/checksum_utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/utils/frequency_utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/utils/pdu_utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/utils/radiotap_parser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/utils/radiotap_writer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/utils/resolve_utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/src/utils/routing_utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/active_test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/active_test_runner.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/configuration.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/ipv4_tests.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/packet_capturer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/tcp_tests.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/test_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/include/utils_tests.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/active_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/active_test_runner.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/configuration.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/ipv4_tests.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/packet_capturer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/tcp_tests.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/test_utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/active_tests/src/utils_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/include/tests/dot11.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/include/tests/dot11_control.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/include/tests/dot11_data.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/include/tests/dot11_mgmt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/address_range_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/allocators_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/arp_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dhcp_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dhcpv6_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dns_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/ack_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/assoc_request_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/assoc_response_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/authentication_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/beacon_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/block_ack_request_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/cf_end_ack_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/cf_end_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/data_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/deauthentication_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/disassoc_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/dot11_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/probe_request_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/probe_response_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/ps_poll_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/reassoc_request_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/reassoc_response_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot11/rts_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/dot1q_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ethernet_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/hw_address_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/icmp_extension_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/icmp_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/icmpv6_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ip_address_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ip_reassembler_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ip_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ipsec_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ipv6_address_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ipv6_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/llc_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/loopback_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/main_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/matches_response_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/mpls_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/network_interface_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/offline_packet_filter_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/pdu_iterator_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/pdu_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/pktap_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/ppi_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/pppoe_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/radiotap_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/raw_pdu_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/rc4_eapol_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/rsn_eapol_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/sll_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/snap_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/stp_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/tcp_ip_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/tcp_stream_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/tcp_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/udp_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/utils_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/wep_decrypt_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/external libs/libtins/tests/src/wpa2_decrypt_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/ipch/SNIFFER_V4-1ef12ce8/SNIFFER_V4-760686c2.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/ipch/SNIFFER_V4-8c6a10c7/SNIFFER_V4-760686c2.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/ipch/SNIFFER_V4-a7daa0c1/SNIFFER_V4-3d400fe0.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/ipch/SNIFFER_V4-a7daa0c1/SNIFFER_V4-3ebb343c.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniffer_v4/ipch/SNIFFER_V4-a7daa0c1/SNIFFER_V4-760686c2.ipch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -757,7 +77,7 @@
     <session id="975288222">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="119" />
+          <entry key="project.closed" value="120" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.131" value="1" />
@@ -797,24 +117,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="38546" />
+          <entry key="py" value="38654" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="38546" />
+          <entry key="Python" value="38654" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="10" />
-          <entry key="py" value="101" />
+          <entry key="py" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="10" />
-          <entry key="Python" value="101" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -829,11 +149,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="305">
+              <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -842,29 +162,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AI_algorithms.py">
+        <entry file="file://$USER_HOME$/Downloads/legend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-256">
-              <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
+            <state relative-caret-position="136">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#340#1835#0" />
-                <element signature="e#1876#3871#0" />
-                <element signature="e#1883#4762#0" />
-                <element signature="e#6957#11072#0" />
-                <marker date="1587419787920" expanded="true" signature="263:264" ph="..." />
-                <marker date="1587419787920" expanded="true" signature="6282:6838" ph="..." />
-                <marker date="1587419787920" expanded="true" signature="10058:10063" ph="..." />
+                <element signature="e#142#160#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AI_algorithms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#340#1835#0" />
+                <element signature="e#1876#3871#0" />
+                <marker date="1587422066495" expanded="true" signature="244:245" ph="..." />
+                <marker date="1587422066495" expanded="true" signature="6263:6819" ph="..." />
+                <marker date="1587422066495" expanded="true" signature="10039:10044" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -905,13 +235,13 @@
         <option value="$PROJECT_DIR$/Baby-step giant-step.py" />
         <option value="$USER_HOME$/Downloads/Dixon.py" />
         <option value="$PROJECT_DIR$/Hello world.py" />
-        <option value="$PROJECT_DIR$/data_loader.py" />
-        <option value="$PROJECT_DIR$/AI_algorithms.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/AI_algorithms.py" />
+        <option value="$PROJECT_DIR$/data_loader.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -964,27 +294,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="Baby-step giant-step" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="anomaly_detection_scanner" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baby-step giant-step.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Dixon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="anomaly_detection_scanner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1027,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab3(metrics)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="data_loader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="anomaly_detection_scanner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1035,11 +344,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Machine Learning/Разинков 2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_loader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="legend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="anomaly_detection_scanner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Machine Learning/Разинков 2019/lab3(metrics).py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/legend.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1071,18 +401,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.lab3(metrics)" />
-      <item itemvalue="Python.Baby-step giant-step" />
       <item itemvalue="Python.Dixon" />
       <item itemvalue="Python.Hello world" />
+      <item itemvalue="Python.legend" />
+      <item itemvalue="Python.data_loader" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.data_loader" />
+        <item itemvalue="Python.legend" />
         <item itemvalue="Python.Hello world" />
         <item itemvalue="Python.Dixon" />
-        <item itemvalue="Python.Baby-step giant-step" />
-        <item itemvalue="Python.lab3(metrics)" />
       </list>
     </recent_temporary>
   </component>
@@ -1117,7 +447,7 @@
       <window_info id="Structure" order="2" sideWeight="0.5010571" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4976867" visible="true" weight="0.33049646" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4976867" weight="0.33049646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1136,14 +466,14 @@
       <window_info id="Structure" order="2" sideWeight="0.5010571" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49834764" visible="true" weight="0.33049646" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4976867" visible="true" weight="0.33049646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50165236" side_tool="true" weight="0.33617023" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50231326" side_tool="true" weight="0.33049646" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1170,7 +500,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1736.42405/Lesson_01_2.ipynb" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9469">
@@ -1383,44 +712,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Коннов лабы/Konnov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AI_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
+        <state relative-caret-position="238">
+          <caret line="116" selection-start-line="116" selection-end-line="116" selection-end-column="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#340#1835#0" />
-            <element signature="e#1876#3871#0" />
-            <element signature="e#1883#4762#0" />
-            <element signature="e#6957#11072#0" />
-            <marker date="1587419787920" expanded="true" signature="263:264" ph="..." />
-            <marker date="1587419787920" expanded="true" signature="6282:6838" ph="..." />
-            <marker date="1587419787920" expanded="true" signature="10058:10063" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="305">
+          <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/legend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#142#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AI_algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#340#1835#0" />
+            <element signature="e#1876#3871#0" />
+            <marker date="1587422066495" expanded="true" signature="244:245" ph="..." />
+            <marker date="1587422066495" expanded="true" signature="6263:6819" ph="..." />
+            <marker date="1587422066495" expanded="true" signature="10039:10044" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
