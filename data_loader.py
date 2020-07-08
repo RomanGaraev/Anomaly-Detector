@@ -1,5 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import scale
+import matplotlib.ticker as ticker
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas
@@ -9,7 +10,7 @@ import os
 # Available data sets of attacks
 attacks = ['Bot', 'Bot_enc', 'Brute force', 'DDoS', 'DoS', 'Infiltration', 'Web', 'Test', 'Test_enc']
 
-# The names of the columns that should be dropped
+# Names of the columns that should be dropped
 drop_col = ['Timestamp', 'Flow Byts/s', 'Flow Pkts/s', 'Flow ID', 'Src IP', 'Src Port', 'Dst IP', 'Flow duration']
 
 
@@ -18,7 +19,7 @@ def find_csv(attack_types=['Bot']):
     files = []
     for attack_type in attack_types:
         if not any(attack_type in name for name in attacks):
-            raise ValueError("There is no type of attack you try to download in data set!\n")
+            raise ValueError("There is no type of attack you try to download in data set:" + attack_type + "\n")
         path = "data\\" + attack_type + "\\"
         for r, d, f in os.walk(path):
             print("Files in the folder", path + ":")
@@ -49,8 +50,8 @@ def load_frame(attack_types=['Bot']):
 def load_set(attack_types=['Bot'], train_size=0.85, shuffle=True):
     train, test = train_test_split(load_frame(attack_types), train_size=train_size, shuffle=shuffle)
 
-    train_label = np.array(train['Label'].map({'Benign': 0, attack_types[0]: 1, 'No Label': 0}))
-    test_label = np.array(test['Label'].map({'Benign': 0, attack_types[0]: 1, 'No Label': 0}))
+    train_label = np.array(train['Label'].map({'Benign': 0, 'Bot': 1, 'No Label': 0}))
+    test_label = np.array(test['Label'].map({'Benign': 0, 'Bot': 1, 'No Label': 0}))
 
     train = scale(train.drop('Label', axis=1))
     test = scale(test.drop('Label', axis=1))
@@ -73,7 +74,7 @@ def load_separate(attack_types=['Bot']):
 
 
 # Return train+validation and test sets as arrays of sequences for recurrent algorithms.
-# Data set is sliced to sequences of random length. Samples are from separated data sets
+# Data set is sliced to sequences of length=step. Samples are from separated data sets
 # noise - number of noise samples in the sequence
 def load_seq(attack_types=['Bot'], step=10, train_size=0.85, noise=4):
     seq = []
@@ -110,10 +111,10 @@ def load_seq(attack_types=['Bot'], step=10, train_size=0.85, noise=4):
 
 
 # Transform .csv file to the proper format
-def transform(file_name):
+def transform(file_name, label='Benign'):
     file = load_frame(file_name)
-    file['Label'] = file['Label'].map({'No Label': 'Benign'})
-    file.to_csv("data\\" + file_name + "\\" + file_name + ".csv", index=False)
+    file['Label'] = label
+    file.to_csv("data\\" + file_name[0] + "\\" + file_name[0] + ".csv", index=False)
     print(file_name, " was changed")
 
 
@@ -122,32 +123,4 @@ def typical_class(x, y, attack_type="Bot"):
     df = load_frame([attack_type])
     df['Label'] = df['Label'].map({'Benign': 0, attack_type: 1})
     df.plot.scatter(x=x, y=y, c='Label', colormap='plasma')
-    plt.show()
-
-
-# Make plot of average algorithms' speed according to the portion of anomaly
-# x - portion of anomaly flows
-# y - time of 100% set processing
-def speed_chart():
-    # Speed on a one flow (from speed_test())
-    NeurNet = 20
-    GRU = 120
-    Autoenc = 10
-    Enc_GRU = 105
-    # Scheme1 = Neural Network + GRU
-    # Scheme2 = Autoencoder + GRU(after encoding)
-    set_len = 10000
-    y1 = []
-    y2 = []
-    for anom in np.linspace(0, 50, 101):
-        anom_len = anom * set_len / 100
-        y1.append(NeurNet * set_len + GRU * anom_len / 10)
-        y2.append(Autoenc * set_len + Enc_GRU * set_len / 10)
-    fig, ax = plt.subplots()
-    ax.plot(np.linspace(0, 50, 101), y1, 'g', label="Scheme I")
-    ax.plot(np.linspace(0, 50, 101), y2, 'r', label="Scheme II")
-    plt.grid(linestyle='--')
-    legend = ax.legend()
-    # Put a nicer background color on the legend.
-    legend.get_frame().set_facecolor('C0')
     plt.show()
